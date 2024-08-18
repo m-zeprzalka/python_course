@@ -1,0 +1,10 @@
+movies = input("Podaj nazwy trzech ulubionych filmów, oddziel je przecinkami: ")
+movies = movies.split(",")
+print(f"Oto twoje filmy: {movies}")
+new_movie = input("Dodaj jeden film do swojej listy: ")
+movies.append(new_movie)
+print(f"Oto twoje filmy: {movies}")
+delete_movie = input("Jaki film chcesz wykasować z listy, podaj jego nazwę: ")
+movies.remove(delete_movie)
+print(f"Oto twoje filmy: {movies}")
+
